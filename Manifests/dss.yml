@@ -5,13 +5,12 @@ metadata:
   name: yelp-camp-secrets
 type: Opaque
 data:
-  CLOUDINARY_CLOUD_NAME: ZG11dG0xamJiCg
-  CLOUDINARY_KEY: MzMxMTgyODU0MTk1ODkxCg
-  CLOUDINARY_SECRET: eWJkM01uaUx1aThOcHhOQVRCZ002bnhuU1FrCg
-  MAPBOX_TOKEN: c2suZXlKMUlqb2lkR0Z5ZFc1eVpYUjFjbTRpTENKaElqb2lZMjAxY25SblpXeHNNR05vY3pKcWMyd3lPSGxyZURnNWVTSjkuRjJEdHZsVjdjaGdZXzIteGRyNGdHUQo
-  DB_URL: bW9uZ29kYitzcnY6Ly90YXJ1bjpJR3YwdlRBejZXU2xDcFBXQHRhcnVuLnJuMXRjLm1vbmdvZGIubmV0Lz9yZXRyeVdyaXRlcz10cnVlJnc9bWFqb3JpdHkmYXBwTmFtZT1UYXJ1bgo
-  SECRET: VGFydW5AMTIzCg
-
+  CLOUDINARY_CLOUD_NAME: WkdtMTBtbXFKYmIK  # Replace with your re-encoded value
+  CLOUDINARY_KEY: TzNNaTgyTzUxT0EyTzUxCg==  # Replace with your re-encoded value
+  CLOUDINARY_SECRET: ZXVua0Nrc1RzQUJ1SU1tTWNOSWtxCg==
+  MAPBOX_TOKEN: c21zdGVzdGluZ3Rva2VuCg==
+  DB_URL: bW9uZ29kYjtzcnY6Ly9mb28ucm4xLnRlc3QubW9uZ29kYi5uZXQvCg==
+  SECRET: VGVzdFNlY3JldA==
 ---
 apiVersion: apps/v1
 kind: Deployment
